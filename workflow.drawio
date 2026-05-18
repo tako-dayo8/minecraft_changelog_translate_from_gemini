@@ -1,0 +1,282 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="system" id="r8Gok9GdyZ_--qF_u-B_">
+    <mxGraphModel grid="1" page="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-4" edge="1" parent="1" source="RUEv1cs17EPte-W_Fa_2-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="RUEv1cs17EPte-W_Fa_2-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="60" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-10" edge="1" parent="1" source="RUEv1cs17EPte-W_Fa_2-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="f7TbmidHAMOnpcndoYD6-37" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Cloud Run A&lt;/div&gt;&lt;div&gt;起動&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="220" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-15" edge="1" parent="1" source="f7TbmidHAMOnpcndoYD6-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="RUEv1cs17EPte-W_Fa_2-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="60" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Pub/Sub" vertex="1">
+          <mxGeometry height="30" width="60" x="140" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="接続" vertex="1">
+          <mxGeometry height="30" width="60" x="350" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f7TbmidHAMOnpcndoYD6-34" edge="1" parent="1" source="RUEv1cs17EPte-W_Fa_2-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RUEv1cs17EPte-W_Fa_2-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="470" />
+              <mxPoint x="1180" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-14" parent="1" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="&lt;div&gt;取得に&lt;/div&gt;&lt;div&gt;成功した&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="620" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-21" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Scheduler&lt;br&gt;15分毎" vertex="1">
+          <mxGeometry height="60" width="120" x="20" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="610" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-48" edge="1" parent="1" source="RUEv1cs17EPte-W_Fa_2-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RUEv1cs17EPte-W_Fa_2-45" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-31" parent="1" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;" value="&lt;div&gt;現在処理中&lt;/div&gt;&lt;div&gt;フラグ&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="90" x="790" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-34" edge="1" parent="1" source="RUEv1cs17EPte-W_Fa_2-31" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="RUEv1cs17EPte-W_Fa_2-21" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="835" y="330" />
+              <mxPoint x="80" y="330" />
+            </Array>
+            <mxPoint x="870" y="190" as="sourcePoint" />
+            <mxPoint x="900" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="True" vertex="1">
+          <mxGeometry height="30" width="60" x="400" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="False" vertex="1">
+          <mxGeometry height="30" width="67" x="890" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-65" edge="1" parent="1" source="RUEv1cs17EPte-W_Fa_2-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RUEv1cs17EPte-W_Fa_2-64" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-44" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;div&gt;前回のURLと&lt;/div&gt;&lt;div&gt;一覧の最新が&lt;/div&gt;&lt;div&gt;同じ&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="120" x="1300" y="5" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-51" edge="1" parent="1" source="RUEv1cs17EPte-W_Fa_2-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RUEv1cs17EPte-W_Fa_2-50" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;リリースノート&lt;/div&gt;&lt;div&gt;一覧クロール&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="970" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-58" edge="1" parent="1" source="RUEv1cs17EPte-W_Fa_2-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RUEv1cs17EPte-W_Fa_2-44" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f7TbmidHAMOnpcndoYD6-33" edge="1" parent="1" source="RUEv1cs17EPte-W_Fa_2-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="RUEv1cs17EPte-W_Fa_2-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-50" parent="1" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="&lt;div&gt;クロールに&lt;/div&gt;&lt;div&gt;成功した&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="1130" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-57" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="1130" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-59" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="24" width="60" x="1240" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-60" edge="1" parent="1" source="RUEv1cs17EPte-W_Fa_2-44" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="RUEv1cs17EPte-W_Fa_2-21" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="1360" y="380" />
+              <mxPoint x="80" y="380" />
+            </Array>
+            <mxPoint x="1020" y="450" as="sourcePoint" />
+            <mxPoint x="1070" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-61" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="720" y="352" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-68" edge="1" parent="1" source="RUEv1cs17EPte-W_Fa_2-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RUEv1cs17EPte-W_Fa_2-67" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-64" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Pub/Sub用の送信データを用意&lt;/div&gt;&lt;div&gt;{&quot;url&quot;: &quot;https://...&quot;}&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1500" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-66" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="1430" y="68" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-70" edge="1" parent="1" source="RUEv1cs17EPte-W_Fa_2-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RUEv1cs17EPte-W_Fa_2-69" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-67" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="&lt;div&gt;Firestore書き込み&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;現在処理中フラグ: True&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="140" x="1700" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-87" edge="1" parent="1" source="RUEv1cs17EPte-W_Fa_2-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RUEv1cs17EPte-W_Fa_2-86" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-96" edge="1" parent="1" source="RUEv1cs17EPte-W_Fa_2-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RUEv1cs17EPte-W_Fa_2-95" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-86" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;div&gt;Cloud Run B&lt;/div&gt;&lt;div&gt;起動&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="2130" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-88" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Pub/Sub" vertex="1">
+          <mxGeometry height="30" width="60" x="2038" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-91" edge="1" parent="1" source="RUEv1cs17EPte-W_Fa_2-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="RUEv1cs17EPte-W_Fa_2-31" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="60" as="sourcePoint" />
+            <mxPoint x="740.0588235294117" y="85.08849557522149" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-93" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#008a00;fontColor=#ffffff;strokeColor=#005700;" value="Cloud Run A" vertex="1">
+          <mxGeometry height="830" width="1830" x="180" y="-90" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-94" parent="RUEv1cs17EPte-W_Fa_2-93" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="24" width="60" x="520" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-55" edge="1" parent="RUEv1cs17EPte-W_Fa_2-93" source="RUEv1cs17EPte-W_Fa_2-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RUEv1cs17EPte-W_Fa_2-54" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-52" parent="RUEv1cs17EPte-W_Fa_2-93" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;" value="通知" vertex="1">
+          <mxGeometry height="60" width="120" x="940" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-54" parent="RUEv1cs17EPte-W_Fa_2-93" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" value="&lt;div&gt;Scheduler&lt;/div&gt;&lt;div&gt;ストップ&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="755" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="f7TbmidHAMOnpcndoYD6-37" parent="RUEv1cs17EPte-W_Fa_2-93" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;取得&lt;/div&gt;&lt;div&gt;現在処理中フラグ&lt;/div&gt;&lt;div&gt;前回URL&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="120" x="250" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-69" parent="RUEv1cs17EPte-W_Fa_2-93" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;div&gt;書き込みにに&lt;/div&gt;&lt;div&gt;成功した&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="120" x="1700" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="f7TbmidHAMOnpcndoYD6-36" edge="1" parent="RUEv1cs17EPte-W_Fa_2-93" source="RUEv1cs17EPte-W_Fa_2-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="RUEv1cs17EPte-W_Fa_2-52">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1760" y="560" />
+              <mxPoint x="1000" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-79" parent="RUEv1cs17EPte-W_Fa_2-93" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="1700" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-103" edge="1" parent="1" source="RUEv1cs17EPte-W_Fa_2-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RUEv1cs17EPte-W_Fa_2-102" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-95" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="URLをクロール" vertex="1">
+          <mxGeometry height="60" width="120" x="2311" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-97" edge="1" parent="1" source="RUEv1cs17EPte-W_Fa_2-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RUEv1cs17EPte-W_Fa_2-99" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-98" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeWidth=1;" value="通知" vertex="1">
+          <mxGeometry height="60" width="120" x="2480" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="f7TbmidHAMOnpcndoYD6-13" edge="1" parent="1" source="RUEv1cs17EPte-W_Fa_2-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="f7TbmidHAMOnpcndoYD6-12" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-99" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" value="&lt;div&gt;Scheduler&lt;/div&gt;&lt;div&gt;ストップ&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="2280" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-100" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="2490" y="135" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-101" edge="1" parent="1" source="RUEv1cs17EPte-W_Fa_2-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RUEv1cs17EPte-W_Fa_2-98" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-105" edge="1" parent="1" source="RUEv1cs17EPte-W_Fa_2-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RUEv1cs17EPte-W_Fa_2-104" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-102" parent="1" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="&lt;div&gt;クロールに&lt;/div&gt;&lt;div&gt;成功した&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="2490" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="f7TbmidHAMOnpcndoYD6-6" edge="1" parent="1" source="RUEv1cs17EPte-W_Fa_2-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="f7TbmidHAMOnpcndoYD6-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RUEv1cs17EPte-W_Fa_2-104" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" value="Gemini&amp;nbsp; API" vertex="1">
+          <mxGeometry height="60" width="120" x="2660" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f7TbmidHAMOnpcndoYD6-9" edge="1" parent="1" source="f7TbmidHAMOnpcndoYD6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="RUEv1cs17EPte-W_Fa_2-98" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2900" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7TbmidHAMOnpcndoYD6-16" edge="1" parent="1" source="f7TbmidHAMOnpcndoYD6-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="f7TbmidHAMOnpcndoYD6-15" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f7TbmidHAMOnpcndoYD6-1" parent="1" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="&lt;div&gt;クロールに&lt;/div&gt;&lt;div&gt;成功した&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="2850" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="f7TbmidHAMOnpcndoYD6-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="2850" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="f7TbmidHAMOnpcndoYD6-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="2590" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="f7TbmidHAMOnpcndoYD6-19" edge="1" parent="1" source="f7TbmidHAMOnpcndoYD6-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="f7TbmidHAMOnpcndoYD6-17" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f7TbmidHAMOnpcndoYD6-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" value="&lt;div&gt;discord webhook&lt;/div&gt;&lt;div&gt;に送信&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="3020" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f7TbmidHAMOnpcndoYD6-21" edge="1" parent="1" source="f7TbmidHAMOnpcndoYD6-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="RUEv1cs17EPte-W_Fa_2-98">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3260" y="245" />
+            </Array>
+            <mxPoint x="2600" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7TbmidHAMOnpcndoYD6-28" edge="1" parent="1" source="f7TbmidHAMOnpcndoYD6-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3400" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7TbmidHAMOnpcndoYD6-17" parent="1" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="&lt;div&gt;送信に&lt;/div&gt;&lt;div&gt;成功した&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="3210" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="f7TbmidHAMOnpcndoYD6-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="3200" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="f7TbmidHAMOnpcndoYD6-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="3320" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="f7TbmidHAMOnpcndoYD6-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="2780" y="66" as="geometry" />
+        </mxCell>
+        <mxCell id="f7TbmidHAMOnpcndoYD6-29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=1;" value="&lt;div&gt;firestore書き込み&lt;/div&gt;&lt;div&gt;現在処理中フラグ：False&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="3400" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f7TbmidHAMOnpcndoYD6-31" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Cloud Run B" vertex="1">
+          <mxGeometry height="830" width="1500" x="2070" y="-90" as="geometry" />
+        </mxCell>
+        <mxCell id="f7TbmidHAMOnpcndoYD6-32" parent="f7TbmidHAMOnpcndoYD6-31" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Yes" vertex="1">
+          <mxGeometry height="24" width="60" x="520" y="124" as="geometry" />
+        </mxCell>
+        <mxCell id="f7TbmidHAMOnpcndoYD6-12" parent="f7TbmidHAMOnpcndoYD6-31" style="whiteSpace=wrap;html=1;rounded=1;strokeWidth=1;" value="&lt;div&gt;Firestore書き込み&lt;/div&gt;&lt;div&gt;現在処理中フラグ：False&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="28" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="f7TbmidHAMOnpcndoYD6-39" edge="1" parent="1" source="f7TbmidHAMOnpcndoYD6-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="RUEv1cs17EPte-W_Fa_2-21" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f7TbmidHAMOnpcndoYD6-38" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" value="開始" vertex="1">
+          <mxGeometry height="60" width="100" x="-120" y="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
